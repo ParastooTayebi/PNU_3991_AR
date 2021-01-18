@@ -1,0 +1,721 @@
+This is XeTeX, Version 3.14159265-2.6-0.99991 (TeX Live 2014/W32TeX) (preloaded format=xelatex 2020.5.25)  16 JAN 2021 04:25
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**untitled-2.tex
+(./untitled-2.tex
+LaTeX2e <2014/05/01>
+Babel <3.9k> and hyphenation patterns for 78 languages loaded.
+(c:/texlive/2014/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2007/10/19 v1.4h Standard LaTeX document class
+(c:/texlive/2014/texmf-dist/tex/latex/base/bk12.clo
+File: bk12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@chapter=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\c@figure=\count87
+\c@table=\count88
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(c:/texlive/2014/texmf-dist/tex/latex/pstricks-add/pstricks-add.sty
+(c:/texlive/2014/texmf-dist/tex/latex/pstricks/pstricks.sty
+Package: pstricks 2013/12/12 v0.60 LaTeX wrapper for `PSTricks' (RN,HV)
+
+(c:/texlive/2014/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is not detected.
+)
+(c:/texlive/2014/texmf-dist/tex/generic/pstricks/pstricks.tex
+(c:/texlive/2014/texmf-dist/tex/generic/xkeyval/pst-xkey.tex
+File: pst-xkey.tex 2005/11/25 v1.6 PSTricks specialization of xkeyval (HA)
+
+(c:/texlive/2014/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/05/09 v2.6d package option processing (HA)
+
+(c:/texlive/2014/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+\XKV@toks=\toks14
+\XKV@tempa@toks=\toks15
+\XKV@depth=\count89
+File: xkeyval.tex 2014/05/09 v2.6d key=value parser (HA)
+
+(c:/texlive/2014/texmf-dist/tex/generic/xkeyval/keyval.tex))))
+(c:/texlive/2014/texmf-dist/tex/generic/pstricks/pst-fp.tex
+`pst-fp' v0.05, 2010/01/17 (hv)
+\pstFP@xs=\count90
+\pstFP@xia=\count91
+\pstFP@xib=\count92
+\pstFP@xfa=\count93
+\pstFP@xfb=\count94
+\pstFP@rega=\count95
+\pstFP@regb=\count96
+\pstFP@regs=\count97
+\pstFP@times=\count98
+)
+(c:/texlive/2014/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks16
+\pgfutil@tempdima=\dimen103
+\pgfutil@tempdimb=\dimen104
+
+(c:/texlive/2014/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex)
+) (c:/texlive/2014/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks17
+\pgfkeys@temptoks=\toks18
+
+(c:/texlive/2014/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks19
+)) (c:/texlive/2014/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+(c:/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(c:/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(c:/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex
+\pgf@x=\dimen105
+\pgf@xa=\dimen106
+\pgf@xb=\dimen107
+\pgf@xc=\dimen108
+\pgf@y=\dimen109
+\pgf@ya=\dimen110
+\pgf@yb=\dimen111
+\pgf@yc=\dimen112
+\c@pgf@counta=\count99
+\c@pgf@countb=\count100
+\c@pgf@countc=\count101
+\c@pgf@countd=\count102
+\pgfutil@tempcnta=\count103
+\pgfutil@tempcntb=\count104
+)
+(c:/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen113
+\pgfmath@count=\count105
+\pgfmath@box=\box26
+\pgfmath@toks=\toks20
+\pgfmath@stack@operand=\toks21
+\pgfmath@stack@operation=\toks22
+)
+(c:/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(c:/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.te
+x)
+(c:/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric
+.code.tex)
+(c:/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.t
+ex)
+(c:/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.co
+de.tex)
+(c:/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex
+)
+(c:/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.te
+x)
+(c:/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex
+)
+(c:/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithm
+etics.code.tex)))
+(c:/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count106
+))
+\pgffor@iter=\dimen114
+\pgffor@skip=\dimen115
+\pgffor@stack=\toks23
+\pgffor@toks=\toks24
+)
+\psLoopIndex=\count107
+
+`PSTricks' v2.54a  <2014/05/19> (tvz)
+\pst@dima=\dimen116
+\pst@dimb=\dimen117
+\pst@dimc=\dimen118
+\pst@dimd=\dimen119
+\pst@dimg=\dimen120
+\pst@dimh=\dimen121
+\pst@dimm=\dimen122
+\pst@dimn=\dimen123
+\pst@dimo=\dimen124
+\pst@dimp=\dimen125
+\pst@hbox=\box27
+\pst@ibox=\box28
+\pst@boxg=\box29
+\pst@cnta=\count108
+\pst@cntb=\count109
+\pst@cntc=\count110
+\pst@cntd=\count111
+\pst@cntg=\count112
+\pst@cnth=\count113
+\pst@cntm=\count114
+\pst@cntn=\count115
+\pst@cnto=\count116
+\pst@cntp=\count117
+\@zero=\count118
+\pst@toks=\toks25
+(c:/texlive/2014/texmf-dist/tex/xelatex/xetex-pstricks/pstricks.con
+(c:/texlive/2014/texmf-dist/tex/generic/pstricks/config/xdvipdfmx.cfg))
+\psunit=\dimen126
+\psxunit=\dimen127
+\psyunit=\dimen128
+\pst@C@@rType=\count119
+\pslinewidth=\dimen129
+\psk@startLW=\dimen130
+\psk@endLW=\dimen131
+\pst@customdefs=\toks26
+\pslinearc=\dimen132
+\pst@symbolStep=\dimen133
+\pst@symbolWidth=\dimen134
+\pst@symbolLinewidth=\dimen135
+\everypsbox=\toks27
+\psframesep=\dimen136
+\pslabelsep=\dimen137
+\sh@wgridXunit=\dimen138
+\sh@wgridYunit=\dimen139
+\pst@shift=\dimen140
+
+(c:/texlive/2014/texmf-dist/tex/xelatex/xetex-pstricks/pstricks.con
+(c:/texlive/2014/texmf-dist/tex/generic/pstricks/config/xdvipdfmx.cfg
+Using PSTricks configuration for XeTeX+xdvipdfmx
+)))
+File: pstricks.tex 2014/05/19 v2.54a `PSTricks' (tvz,hv)
+ (c:/texlive/2014/texmf-dist/tex/generic/pstricks/pst-fp.tex)
+File: pst-fp.tex 2014/05/19 v2.54a `PST-fp' (hv)
+
+(c:/texlive/2014/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(c:/texlive/2014/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: xetex.def on input line 225.
+
+(c:/texlive/2014/texmf-dist/tex/xelatex/xetex-def/xetex.def
+File: xetex.def 2014/04/28 v4.01 LaTeX color/graphics driver for XeTeX (RRM/JK)
+
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+))
+(c:/texlive/2014/texmf-dist/tex/latex/pst-plot/pst-plot.sty
+Package: pst-plot 2011/06/05 v1.00 LaTeX wrapper for `pst-plot' (HV)
+
+(c:/texlive/2014/texmf-dist/tex/latex/xkeyval/pst-xkey.sty
+Package: pst-xkey 2005/11/25 v1.6 package wrapper for pst-xkey.tex (HA)
+)
+(c:/texlive/2014/texmf-dist/tex/latex/multido/multido.sty
+Package: multido 2004/05/17 package wrapper for PSTricks `multido.tex', (HV/RN)
+
+
+(c:/texlive/2014/texmf-dist/tex/generic/multido/multido.tex
+ v1.42, 2010/05/14 <tvz>
+\multido@count=\count120
+\multidocount=\count121
+\multido@stuff=\toks28
+)
+File: multido.tex 2010/05/14 v1.42 `multido' (tvz,hv)
+)
+Package: pst-plot 2011/04/13 package wrapper for pst-plot.tex (hv)
+
+(c:/texlive/2014/texmf-dist/tex/generic/pst-plot/pst-plot.tex
+(c:/texlive/2014/texmf-dist/tex/generic/pst-tools/pst-tools.tex
+`PST-tools' v0.05, 2014/05/12 (hv))  v1.62, 2014/05/12 (tvz,hv)
+\pstRadUnit=\dimen141
+\pstRadUnitInv=\dimen142
+\pst@linecnt=\count122
+\RCD@file=\read1
+\psxlabelsep=\dimen143
+\psylabelsep=\dimen144
+\psk@subticksize=\dimen145
+\pst@xticksizeA=\dimen146
+\pst@xticksizeB=\dimen147
+\pst@xticksizeC=\dimen148
+\pst@yticksizeA=\dimen149
+\pst@yticksizeB=\dimen150
+\pst@yticksizeC=\dimen151
+\@digitcounter=\count123
+\psk@llx=\dimen152
+\psk@lly=\dimen153
+\psk@urx=\dimen154
+\psk@ury=\dimen155
+\pst@xunit=\dimen156
+\pst@yunit=\dimen157
+)
+File: pst-plot.tex 2014/05/12 1.62 `pst-plot' (tvz,hv)
+)
+(c:/texlive/2014/texmf-dist/tex/latex/pst-node/pst-node.sty
+Package: pst-node 2012/09/18 v1.01 LaTeX wrapper for `pst-node' (HV)
+Package: pst-node 2010/04/22 package wrapper for pst-node.tex
+
+(c:/texlive/2014/texmf-dist/tex/generic/pst-node/pst-node.tex
+ v1.33, 2014/03/25
+\psrow=\count124
+\pscol=\count125
+\psmatrixcnt=\count126
+\psrowsep=\skip43
+\pscolsep=\skip44
+\pst@args=\count127
+\num@pts=\count128
+\pst@argcnt=\count129
+)
+File: pst-node.tex 2014/03/25 1.33 `pst-node' (tvz,hv)
+) (c:/texlive/2014/texmf-dist/tex/latex/pst-3d/pst-3d.sty
+Package: pst-3d 2009/07/28 package wrapper for pst-3d.tex (hv)
+
+(c:/texlive/2014/texmf-dist/tex/generic/pst-3d/pst-3d.tex
+`PST-3d' v1.11, 2010/02/14 (tvz))
+File: pst-3d.tex 2010/02/14 v1.11 `PST-3d' (hv)
+)
+(c:/texlive/2014/texmf-dist/tex/latex/pst-math/pst-math.sty
+Package: pst-math 2009/01/20 package wrapper for PSTricks pst-math.tex
+
+(c:/texlive/2014/texmf-dist/tex/generic/pst-math/pst-math.tex
+`pst-math' v0.62 , (CJ,hv))
+File: pst-math.tex 2010/10/20 v0.62 `PST-math' (hv)
+)
+Package: pstricks-add 2010/02/11 v. 0.14 package wrapper for pstricks-add.tex (
+hv)
+
+(c:/texlive/2014/texmf-dist/tex/generic/pstricks-add/pstricks-add.tex
+`pstricks-add' v3.68, 2014/05/17 (dr,hv)
+\psparallelogramsep=\dimen158
+\pshooklength=\dimen159
+\pshookwidth=\dimen160
+\pst@cntC=\count130
+\chart@ColorIndex=\dimen161
+\chart@ColorStep=\dimen162
+\pst@chartHeight=\dimen163
+\pst@chartStackDepth=\dimen164
+\pst@chartStackWidth=\dimen165
+\chart@Toggle=\count131
+\psVectorCtr=\count132
+)
+File: pstricks-add.tex 2014/05/17 v3.68 `PSTricks-add' (hv)
+Package pstricks-add Info: Local config file pstricks-add.cfg used on input lin
+e 20.
+
+(c:/texlive/2014/texmf-dist/tex/latex/pstricks-add/pstricks-add.cfg
+File: pstricks-add.cfg 2005/01/10 v0.1 addtional user stuff (hv)
+))
+(c:/texlive/2014/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip45
+
+For additional information on amsmath, use the `?' option.
+(c:/texlive/2014/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(c:/texlive/2014/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks29
+\ex@=\dimen166
+))
+(c:/texlive/2014/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen167
+)
+(c:/texlive/2014/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count133
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count134
+\leftroot@=\count135
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count136
+\DOTSCASE@=\count137
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box30
+\strutbox@=\box31
+\big@size=\dimen168
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count138
+\c@MaxMatrixCols=\count139
+\dotsspace@=\muskip10
+\c@parentequation=\count140
+\dspbrk@lvl=\count141
+\tag@help=\toks30
+\row@=\count142
+\column@=\count143
+\maxfields@=\count144
+\andhelp@=\toks31
+\eqnshift@=\dimen169
+\alignsep@=\dimen170
+\tagshift@=\dimen171
+\tagwidth@=\dimen172
+\totwidth@=\dimen173
+\lineht@=\dimen174
+\@envbody=\toks32
+\multlinegap=\skip46
+\multlinetaggap=\skip47
+\mathdisplay@stack=\toks33
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+(c:/texlive/2014/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2004/08/06 v2.20
+\thm@style=\toks34
+\thm@bodyfont=\toks35
+\thm@headfont=\toks36
+\thm@notefont=\toks37
+\thm@headpunct=\toks38
+\thm@preskip=\skip48
+\thm@postskip=\skip49
+\thm@headsep=\skip50
+\dth@everypar=\toks39
+)
+(c:/texlive/2014/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(c:/texlive/2014/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(c:/texlive/2014/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
+Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
+\symrsfs=\mathgroup6
+)
+(c:/texlive/2014/texmf-dist/tex/latex/amsmath/amscd.sty
+Package: amscd 1999/11/29 v2.0
+\athelp@=\toks40
+\minaw@=\dimen175
+\bigaw@=\dimen176
+\minCDarrowwidth=\dimen177
+)
+(c:/texlive/2014/texmf-dist/tex/latex/mh/mathtools.sty
+Package: mathtools 2014/05/21 v1.14 mathematical typesetting tools
+
+(c:/texlive/2014/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count145
+\calc@Bcount=\count146
+\calc@Adimen=\dimen178
+\calc@Bdimen=\dimen179
+\calc@Askip=\skip51
+\calc@Bskip=\skip52
+LaTeX Info: Redefining \setlength on input line 75.
+LaTeX Info: Redefining \addtolength on input line 76.
+\calc@Ccount=\count147
+\calc@Cskip=\skip53
+)
+(c:/texlive/2014/texmf-dist/tex/latex/mh/mhsetup.sty
+Package: mhsetup 2010/01/21 v1.2a programming setup (MH)
+)
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
+\g_MT_multlinerow_int=\count148
+\l_MT_multwidth_dim=\dimen180
+\origjot=\skip54
+\l_MT_shortvdotswithinadjustabove_dim=\dimen181
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen182
+\l_MT_above_intertext_sep=\dimen183
+\l_MT_below_intertext_sep=\dimen184
+\l_MT_above_shortintertext_sep=\dimen185
+\l_MT_below_shortintertext_sep=\dimen186
+)
+(c:/texlive/2014/texmf-dist/tex/latex/doublestroke/dsfont.sty
+Package: dsfont 1995/08/01 v0.1 Double stroke roman fonts
+)
+(c:/texlive/2014/texmf-dist/tex/latex/ncctools/nccmath.sty
+Package: nccmath 2005/02/21 v1.2 Additional Math Commands (NCC)
+\NCC@fracrulewidth=\dimen187
+) (./untitled-2.aux)
+\openout1 = `untitled-2.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+
+(c:/texlive/2014/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2014/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2014/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(c:/texlive/2014/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: xetex.def on input line 91.
+)
+\Gin@req@height=\dimen188
+\Gin@req@width=\dimen189
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 17.
+
+(c:/texlive/2014/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 17.
+
+(c:/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 17.
+
+(c:/texlive/2014/texmf-dist/tex/latex/jknapltx/ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)
+Underfull \hbox (badness 10000) in paragraph at lines 30--35
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--63
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--63
+
+ []
+
+[149
+
+]
+Missing character: There is no ﬁ in font cmr12!
+Missing character: There is no ﬁ in font cmr12!
+Missing character: There is no ﬁ in font cmr12!
+Missing character: There is no ﬁ in font cmr12!
+Missing character: There is no ﬁ in font cmr12!
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--98
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--98
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--98
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--98
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--98
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--98
+
+ []
+
+Missing character: There is no ﬁ in font cmr12!
+Missing character: There is no ﬁ in font cmr12!
+Missing character: There is no ﬁ in font cmr12!
+Missing character: There is no ﬁ in font cmr12!
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--142
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--142
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--142
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--142
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--142
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--142
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--142
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--142
+
+ []
+
+
+Underfull \vbox (badness 1688) has occurred while \output is active []
+
+ [150]
+Missing character: There is no ﬁ in font cmr12!
+Missing character: There is no ﬁ in font cmr12!
+Missing character: There is no ﬁ in font cmr12!
+
+Underfull \hbox (badness 10000) in paragraph at lines 147--168
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 147--168
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 147--168
+
+ []
+
+Missing character: There is no ﬁ in font cmr12!
+Missing character: There is no ﬁ in font cmr12!
+Missing character: There is no ﬁ in font cmr12!
+Missing character: There is no ﬁ in font cmr12!
+Missing character: There is no ﬁ in font cmr12!
+Missing character: There is no ﬁ in font cmr12!
+[151]
+Missing character: There is no ﬁ in font cmr12!
+
+Underfull \hbox (badness 10000) in paragraph at lines 171--190
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 171--190
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 171--190
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 171--190
+
+ []
+
+Missing character: There is no ﬁ in font cmr12!
+Missing character: There is no ﬁ in font cmr12!
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--306
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--306
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--306
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--306
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--306
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--306
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--306
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--306
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--306
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--306
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--306
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--306
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--306
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--306
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--306
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--306
+
+ []
+
+
+Underfull \vbox (badness 4859) has occurred while \output is active []
+
+ [152]
+[153] (./untitled-2.aux) ) 
+Here is how much of TeX's memory you used:
+ 11082 strings out of 493734
+ 190340 string characters out of 6149468
+ 311065 words of memory out of 5000000
+ 14236 multiletter control sequences out of 15000+600000
+ 9438 words of font info for 37 fonts, out of 8000000 for 9000
+ 1328 hyphenation exceptions out of 8191
+ 44i,9n,53p,892b,154s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on untitled-2.pdf (5 pages).

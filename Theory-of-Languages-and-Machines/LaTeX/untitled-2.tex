@@ -1,0 +1,308 @@
+\documentclass[12pt,a4paper,openany]{book}
+\usepackage{pstricks-add}
+\usepackage{amsmath,amsthm,amssymb,mathrsfs,amscd,mathtools,dsfont,nccmath}
+
+
+
+\begin{document}
+\setcounter{page}{149}
+
+The states A, B, C for input 0 produce next states B, C, B, respectively, and produce next states H, G, F for input 1. The states BCB belong to the same set, but H and G, F belong to different sets. So, the set (ABC) is partitioned into (A) and (BC).
+
+The states B and H produce next states C and D, respectively, for input 0 and produce next states G and A for input 1. C and D belong to different sets, and so the set (BH) is divided into (B) and (H). 
+
+The states E, F, G produce next states B, B, and C for input 0 and next states C, B, B for input 1. Both B and C belong to the same set, and so the set (EFG) cannot be partitioned. The new partition becomes
+
+\begin{center}
+$P_3 = (((A) (BC)) (((D) (H)) (EFG)))$
+\end{center}
+Here, A and B are 3-distinguishable, because they produce different outputs for input string length 3.
+By this process, we will get $P_4$ also as
+
+\begin{center}
+$P_4 = (((A) (BC)) (((D) (H)) (EFG)))$
+\end{center}
+As $P_3$ and $P_4$ consist of the same partitions,
+
+\begin{center}
+$P_3 = (((A) (BC)) (((D) (H)) (EFG)))$
+\end{center}
+is the equivalent partition for the machine M.
+\\
+\\
+\textbf{Minimization:} We know that equivalent partition is unique. So, $ P_3 = (((A)(BC)) (((D)(H)) (EFG)))$ is the
+unique combination. Here, every single set represents one state of the minimized machine.
+
+Let us rename these partitions for simplifi cation.
+
+Rename (A) as $S_1$ , (BC) as $S_2$ , (D) as $S_3$, (H) as $S_4$ , and (EFG) as $S_5$ (A) with input 0 goes to (B), and so there will be a transaction from $S_1$ to $S_2$ with input 0. (A) with input 1 goes to (H), and so there will be a transaction from $S_1$ to $S_4$ with input 1. (BC) with input 0 goes to (BC) for input 0. There will be a transaction from $S_2$ to $S_2$ for input 0. (BC) with input 1 goes to (FG). There will be a transaction from $S_2$ to $S_5$ for input 1.
+
+By this process, the whole table of the minimized machine is constructed.
+
+The minimized machine becomes
+\\
+\\
+\begin{tabular}{ |p{3cm}| |p{3cm}|p{3cm}| }
+\hline
+\multicolumn{3}{|c|}{Next State, z} \\
+\hline
+Present State  &   $X = 0$        &  $X = 1$   \\
+\hline
+$S_1(A)$         &    $S_2 0$      &    $S_4 1$  \\
+$S_2(BC)$       &    $S_2 0$      &    $S_5 1$  \\
+$S_3(D)$         &    $S_5 1$      &    $S_2 1$  \\
+$S_4(H)$         &    $S_3 1$      &    $S_1 1$  \\
+$S_5(EFG)$     &    $S_2 1$      &    $S_2 1$  \\
+\hline
+\end{tabular}
+\\
+\\
+\textbf{
+4.5 Incompletely Specified Machine, Minimal Machine
+}
+
+ In real life, for all states and for all inputs, the next state or outputs or both are not mentioned. Those types of machines, where for all states and for all inputs, the next state, or output, or both are not mentioned, are called incompletely speciﬁ ed machine. 
+
+In the following machine, for state A and for 00 input, no next state and outputs are speciﬁ ed. So, the previous machine is an example of an incompletely speciﬁ ed machine.
+\\
+\\
+\begin{tabular}{ |p{3cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm}| }
+\hline
+Present State  &   00   &   01    &   11   &   10   \\
+\hline
+A  &   -,-   &   B,0    &   C,1   &   -,-   \\
+B  &   A,0   &   B,1    &   -,0   &   C,-   \\
+C  &   D,1   &   A,-    &   B,0   &   D,1   \\
+D  &   -,0   &  -,-    &   C,0   &   B,1   \\
+\hline
+\end{tabular}
+\\
+\\
+\\
+\textbf{
+4.5.1 Simplification
+}
+\\
+\\
+An incompletely speciﬁ ed machine can be simpliﬁ ed by the following steps: 
+\\
+\\
+O  If the next state is not mentioned for a state, for a given input, put a temporary state T in that place. 
+\\
+O  If the output is not mentioned, make it blank. 
+\\
+O  If the next state and output are not mentioned, put a temporary state T in the place of the next state and nothing in the place of output. 
+\\
+O  Add the temporary state T in the present state column, putting T as the next state and no output for all inputs.
+\\
+
+By following the previous steps, the simpliﬁ cation of the previous incompletely speciﬁ ed machine will be
+\\
+\\
+\begin{tabular}{ |p{3cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm}| }
+\hline
+\multicolumn{5}{|c|}{Next State, z} \\
+\hline
+Present State  &   00   &   01    &   11   &   10   \\
+\hline
+A  &   T,-   &   B,0    &   C,1   &   T,-   \\
+B  &   A,0   &   B,1    &   T,0   &   C,-   \\
+C  &   D,1   &   A,-    &   B,0   &   D,1   \\
+D  &   T,0   &  T,-    &   C,0   &   B,1   \\
+T  &   T,-   &  T,-    &   T,-   &   T,-   \\
+\hline
+\end{tabular}
+\\
+\\
+\\
+Here 'T' is the same as the dead state in ﬁ nite automata.
+\\
+\\
+\textbf{Example 4.7} Simplify the following incompletely speciﬁ ed machine.
+\\
+\\
+\textbf{Solution:}
+\\
+\\
+\begin{tabular}{ |p{3cm}|p{2cm}|p{2cm}|p{2cm}| }
+\hline
+\multicolumn{4}{|c|}{Next State, z} \\
+\hline
+Present State  &   $I_1$   &   $I_2$    &   $I_3$   \\
+\hline
+A  &   C,0  &   E,1  &   - -   \\
+B  &   C,0  &   E,-   &   - -   \\
+C  &   B,-   &   C,0   &   A,-   \\
+D  &   B,0  &  C,-   &   E,-   \\
+E  &   - -   &  E,0    &   A,-   \\
+\hline
+\end{tabular}
+\\
+\\
+
+Put a temporary state T in the place of the next state, where the next states are not speciﬁ ed. If the output is not mentioned, there is no need to put any output.
+
+As the temporary state T is considered, put T in the present state column with the next state T for all inputs with no output.
+
+The simpliﬁ ed machine becomes
+\\
+\\
+\begin{tabular}{ |p{3cm}|p{2cm}|p{2cm}|p{2cm}| }
+\hline
+\multicolumn{4}{|c|}{Next State, z} \\
+\hline
+Present State  &   $I_1$   &   $I_2$    &   $I_3$   \\
+\hline
+A  &   C,0  &   E,1  &   T,-   \\
+B  &   C,0  &   E,-   &    T,-   \\
+C  &   B,-   &   C,0   &   A,-   \\
+D  &   B,0  &  C,-   &   E,-   \\
+E  &   T,-   &  E,0    &   A,-   \\
+T  &   T,-   &  T,-    &   T,-    \\
+\hline
+\end{tabular}
+\\
+\\
+\\
+\textbf{Minimal Machine:}  Is the minimum of the machines obtained by minimizing an incompletely speciﬁ ed machine.
+
+In an incompletely speciﬁ ed machine, for all states and for all inputs, the next state, or output, or both are not mentioned. At the time of minimizing the incompletely speciﬁ ed machine, different persons can take the unmentioned next states or outputs according to their choice. Therefore, there is a great possibility to get different equivalent partitions for a single machine. But, we know that equivalent partition is unique for a given machine. It is not possible to ﬁ nd a u nique minimized machine for a given incompletely speciﬁ ed machine most of the times. Therefore, our aim must be to ﬁ nd a reduced machine which not only covers the original machine but also has a minimal (least of the minimum) number of states. This type of machine is called minimal machine, i.e., it is the minimum of the machines obtained by minimizing an incompletely speciﬁ ed machine.
+
+Let us consider the following incompletely speciﬁ ed machine
+\\
+\\
+\begin{tabular}{ |p{3cm}|p{2cm}|p{2cm}|}
+\hline
+\multicolumn{3}{|c|}{Next State, z} \\
+\hline
+Present State  &   $X = 0$        &  $X = 1$   \\
+\hline
+A  &   E,1  &   D,0   \\
+B  &   E,0  &   C,1    \\
+C  &   A,0   &   B,-   \\
+D  &   A,0  &  D,1     \\
+E  &   A,-    &  B,0     \\
+\hline
+\end{tabular}
+\\
+\\
+\\
+
+In this machine, for C with input 1, the output is not speciﬁ ed and the same for E with input 0. There are two types of outputs that can occur in the machine. So, the unspeciﬁ ed outputs can be any of the following:
+\\
+\\
+(a) (B, 0   A, 0)
+\\
+(b) (B, 0   A, 1)
+\\
+(c) (B, 1   A, 1)
+\\
+(c) (B, 1   A, 0).
+\\
+\\
+If it is $(a)_,$ then the machine and its equivalent partition is
+\\
+\\
+$P_0$ = (ABCDE)
+\\
+$P_1$ = (A)(BD)(CE)
+\\
+$P_2$ = (A)(B)(D)(CE) 
+\\
+\\
+\begin{tabular}{ |p{3cm}|p{2cm}|p{2cm}|}
+\hline
+\multicolumn{3}{|c|}{Next State, z} \\
+\hline
+Present State  &   $X = 0$        &  $X = 1$   \\
+\hline
+A  &   E,1  &   D,0   \\
+B  &   E,0  &   C,1    \\
+C  &   A,0   &   B,0   \\
+D  &   A,0  &  D,1     \\
+E  &   A,0    &  B,0     \\
+\hline
+\end{tabular}
+\\
+\\
+\\
+If it is $(b)_,$ then the machine and its equivalent partition is
+\\
+\\
+$P_0$ = (ABCDE)
+\\
+$P_1$ = (AE)(BD)(C)
+\\
+$P_2$ = (AE)(B)(D)(C)
+\\
+$P_3$ = (A)(E)(B)(D)(C)
+\\
+\\
+\begin{tabular}{ |p{3cm}|p{2cm}|p{2cm}|}
+\hline
+\multicolumn{3}{|c|}{Next State, z} \\
+\hline
+Present State  &   $X = 0$        &  $X = 1$   \\
+\hline
+A  &   E,1  &   D,0   \\
+B  &   E,0  &   C,1    \\
+C  &   A,0   &   B,0   \\
+D  &   A,0  &  D,1     \\
+E  &   A,1    &  B,0     \\
+\hline
+\end{tabular}
+\\
+\\
+\\
+If it is $(c)_,$ then the machine and its equivalent partition is
+\\
+\\
+$P_0$ = (ABCDE)
+\\
+$P_1$ = (AE)(BCD) 
+\\
+\\
+\begin{tabular}{ |p{3cm}|p{2cm}|p{2cm}|}
+\hline
+\multicolumn{3}{|c|}{Next State, z} \\
+\hline
+Present State  &   $X = 0$        &  $X = 1$   \\
+\hline
+A  &   E,1  &   D,0   \\
+B  &   E,0  &   C,1    \\
+C  &   A,0   &   B,1   \\
+D  &   A,0  &  D,1     \\
+E  &   A,1    &  B,0     \\
+\hline
+\end{tabular}
+\\
+\\
+\\
+If it is $(d)_,$ then the machine and its equivalent partition is
+\\
+\\
+$P_0$ = (ABCDE)
+\\
+$P_1$ = (A)(BCD)(E)
+\\
+$P_2$ = (A)(B)(CD)(E)
+\\
+$P_3$ = (A)(B)(C)(D)(E)
+\\
+\\
+\begin{tabular}{ |p{3cm}|p{2cm}|p{2cm}|}
+\hline
+\multicolumn{3}{|c|}{Next State, z} \\
+\hline
+Present State  &   $X = 0$        &  $X = 1$   \\
+\hline
+A  &   E,1  &   D,0   \\
+B  &   E,0  &   C,1    \\
+C  &   A,0   &   B,1   \\
+D  &   A,0  &  D,1     \\
+E  &   A,0    &  B,0     \\
+\hline
+\end{tabular}
+
+
+\end{document}
