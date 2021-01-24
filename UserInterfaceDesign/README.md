@@ -1,6 +1,7 @@
 <div dir=rtl >
  
 ### معرفی یک درس مشابه
+
 طراحی واسط کاربر، دانشگاه امیر کبیر
 
 <a  target="_blank"><img src="https://github.com/BaharbSalmas/PNU_3991_AR/blob/main/UserInterfaceDesign/91yP51Q8iXL.jpg" border="0" alt="picture of book" width=30% /></a>
@@ -11,6 +12,9 @@ Strategies for effective human-computer interaction
 
 Ben Shneiderman
 
+و نمونه ای دیگر در 
+
+- [ University of Minnesota ](https://www.coursera.org/specializations/user-interface-design)
 ------------------
 
 ### جزئیات پروژه
