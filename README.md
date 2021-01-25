@@ -17,11 +17,11 @@
 ### ارزیابی ها
 
 ##  بخش عمومی
-- [خلاصه ارزیابی بخش عمومی]()
-- [ارزیابی رزومه و انگیزه نامه]()
+- [خلاصه ارزیابی بخش عمومی](https://github.com/ParastooTayebi/PNU_3991_AR/blob/main/General/FT_GeneralSection_CheckList_AR_3991.pdf)
+- [ارزیابی رزومه و انگیزه نامه](https://github.com/ParastooTayebi/PNU_3991_AR/blob/main/General/FT_CV_CheckList_AR_3991.pdf)
 ##  بخش دروس کارشناسی
-- [خلاصه ارزیابی درس طراحی واسط کاربر]()
-- [خلاصه ارزیابی درس نظریه زبانها و ماشین ها]()
+- [خلاصه ارزیابی درس طراحی واسط کاربر](https://github.com/ParastooTayebi/PNU_3991_AR/blob/main/UserInterfaceDesign/FT_UserInterfaceDesgin_CheckList_AR_3991.pdf)
+- [خلاصه ارزیابی درس نظریه زبانها و ماشین ها](https://github.com/ParastooTayebi/PNU_3991_AR/blob/main/Theory-of-Languages-and-Machines/FT_Theory-of-Languages-and-Machines_CheckList_AR_3991.pdf)
 
 ------
 ## گروه ها
