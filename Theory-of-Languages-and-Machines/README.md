@@ -6,12 +6,12 @@
 تایپ صفحه 149 تا صفحه 152 کتاب Introduction to Automata Theory, Formal Languages and Computation 
 - [مشاهده pdf](https://github.com/ParastooTayebi/PNU_3991_AR/blob/main/Theory-of-Languages-and-Machines/LaTeX/untitled-2.pdf)
 - [مشاهده latex](https://github.com/ParastooTayebi/PNU_3991_AR/blob/main/Theory-of-Languages-and-Machines/LaTeX/untitled-2.tex)
-<br>
+
 -----------
 ## پروژه کوچک
 موضوع : طراحی رزومه
 - [مشاهده Resume](https://parastootayebi.github.io/Resume/)
-<br>
+
 -----------
 ## خلاصه ارزیابی درس
 
